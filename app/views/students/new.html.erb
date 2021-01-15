@@ -5,9 +5,9 @@
 <%= text_field_tag name='student[first_name]' %><br>
 
 <label>Student Last Name:</label><br>
-<%= text_field_tag name='student[last_name]' %><br>
+<%= text_field_tag :'student[last_name]' %><br>
 
-<%= submit_tag "Submit Student" %>
+<%= submit_tag :"Submit Student" %>
 
 <h1><%= @student.to_s %></h1>
 
